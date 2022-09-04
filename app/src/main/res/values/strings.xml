@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">BluetoothLE Connectivity</string>
+
+    <string name="bt_scanning">already scanning</string>
 </resources>

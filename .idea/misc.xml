@@ -3,7 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/ANDROID/BluetoothConnectivityBLE/app/src/main/res/layout/activity_main.xml" value="0.15260416666666668" />
+        <entry key="..\:/ANDROID/BluetoothConnectivityBLE/app/src/main/res/layout/activity_main.xml" value="0.18" />
+        <entry key="..\:/ANDROID/BluetoothConnectivityBLE/app/src/main/res/layout/item_scan_device.xml" value="0.1436077057793345" />
       </map>
     </option>
   </component>
