@@ -12,7 +12,6 @@ class ScanDevicesAdapter(val listener: RecyclerViewItemOnClickListener) : Recycl
     companion object{
         private const val TAG: String = "ScanDevicesAdapter"
     }
-    private var onItemClick: ((ScanResult) -> Unit)? = null
     private var itemsList: MutableList<ScanResult> = arrayListOf()
 
     @SuppressLint("MissingPermission")
@@ -66,18 +65,15 @@ class ScanDevicesAdapter(val listener: RecyclerViewItemOnClickListener) : Recycl
             item?.let {
                 binding.deviceName.text = it.device.name
                 binding.deviceAddress.text = it.device.address
-                //binding.lastSeen.text = it.timestampNanos.toString()
                 binding.root.setOnClickListener {
                     listener.onViewClick(item)
-                   // onItemClick?.invoke(itemsList[adapterPosition])
                 }
             }
-
         }
     }
 
     interface RecyclerViewItemOnClickListener {
-        fun onViewClick(position: ScanResult)
+        fun onViewClick(result: ScanResult)
     }
 
 }

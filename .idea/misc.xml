@@ -5,10 +5,12 @@
       <map>
         <entry key="..\:/ANDROID/BluetoothConnectivityBLE/app/src/main/res/layout/activity_main.xml" value="0.18" />
         <entry key="..\:/ANDROID/BluetoothConnectivityBLE/app/src/main/res/layout/item_scan_device.xml" value="0.1436077057793345" />
+        <entry key="app/src/main/res/layout/activity_device_control.xml" value="0.1765625" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.1765625" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
